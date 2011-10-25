@@ -1,0 +1,10 @@
+body
+{
+	background-image:url('imagine.jpg');
+	background-color:#eee;
+}
+a:hover
+{
+	text-decoration:none;	
+	color:#f00;
+}
