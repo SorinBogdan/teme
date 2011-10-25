@@ -1,10 +1,16 @@
 body
 {
-	background-image:url('imagine.jpg');
+	/*background-image:url('imagine.jpg');*/
 	background-color:#eee;
 }
-a:hover
+.menu a div
 {
-	text-decoration:none;	
-	color:#f00;
+  display:none;
+  position:absolute;
+}
+.menu a:hover div
+{
+  display:block;
+  background-color:lightgrey;
+  text-decoration:none;
 }
