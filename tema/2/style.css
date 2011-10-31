@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	background-color: white;
+}
+
+.header {
+	background-color: #282828;
+	margin: 0;
+	padding: 15px 0px 38px 15px;
+}
+
+.header_c {
+	margin: 0px auto;
+	width: 990px;
+	border: none;
+	padding: 0;
+}
+
+.logo {
+	color: white;
+	float: left;
+	font-size: 30px;
+	font-family: "Comic sans ms";
+}
+
+.hright {
+	float: right;
+	text-align: left;
+	margin: 0;
+}
+
+.hright img {
+	float: right;
+	margin: 0px 5px;
+}
+
+.hright a {
+	text-decoration: none;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu a {
+	color: #C0C0C0;
+	margin: 0px 5px;
+}
+
+ul {
+	list-style: none;
+	display: block;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	display: block;
+}
+
+ul li a:hover {
+	color: #999;
+}
+
+ul li div {
+	display: none;
+}
+
+ul li:hover > div {
+	display: block;
+}
+
+.submenu {	
+	margin:4px 0px 0px;
+	padding: 25px;
+	background-color: #D0D0D0;
+	text-align: center;
+}
+
+.submenu img {
+	border-style: ridge;
+	width: 400px;
+	height: 200px;
+}
+
+.quote {
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	margin: 0;
+	color: #A0A0A0;
+	text-align: center;
+	background-color: #F8F8F8;
+}
