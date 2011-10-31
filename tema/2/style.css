@@ -62,7 +62,7 @@ ul li a {
 }
 
 ul li a:hover {
-	color: #999;
+	background-color: #999;
 }
 
 ul li div {
@@ -91,7 +91,29 @@ ul li:hover > div {
 	border-style: solid;
 	border-color: gray;
 	margin: 0;
-	color: #A0A0A0;
+	color: #909090;
 	text-align: center;
 	background-color: #F8F8F8;
+}
+
+.content {
+	background-color: #B0B0B0;
+}
+
+.stanga {
+	float: left;
+	padding-left: 30px;
+	width: 900px;
+}
+
+.dreapta {
+	float: right;
+	padding-right: 30px;
+	width: 250px;
+	text-align: left;
+}
+
+.footer {
+	background-color: #A8A8A8;
+	padding: 20px 40px;
 }
