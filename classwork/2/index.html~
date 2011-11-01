@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="continut">
+			<div id="header">
+				<ul>
+					<li>
+						<a href="#" >Site-uri</a>
+							<div>site1</div>
+					</li>
+					<li>
+					<a href="#" >Site-uri 1</a>
+							<div>site2</div></li>
+					<li>
+						<a href="#" >Site-uri 2</a>
+							<div>site3</div>					
+					</li>		
+				</ul>	
+			</div>
+			<div id="content">
+				#content
+				<div id="left">
+					left
+				</div>
+				<div id="right">
+					right
+				</div>
+			</div>
+			<div style="clear: both"></div>
+			<div id="footer">
+				#footer
+			</div>
+		</div>
+	</body>
+</html>
