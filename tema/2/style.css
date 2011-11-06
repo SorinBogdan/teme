@@ -96,24 +96,19 @@ ul li:hover > div {
 	background-color: #F8F8F8;
 }
 
-.content {
-	background-color: #B0B0B0;
-}
 
 .stanga {
 	float: left;
 	padding-left: 30px;
-	width: 900px;
+	width: 600px;
 }
 
 .dreapta {
 	float: right;
 	padding-right: 30px;
 	width: 250px;
-	text-align: left;
 }
 
 .footer {
-	background-color: #A8A8A8;
-	padding: 20px 40px;
+	margin-top: 500px;	
 }
