@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+ <html lang="en">
+ <head>
+	 <title></title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <link rel="stylesheet" href="style.css" type="text/css"/>
+ </head>
+	 <body>
+		<div class="main">
+		<div class="content">
+			<div class="header">
+				<a href="#">Home page</a> | 
+				<a href="#">About us</a> | 
+				<a href="#">Services</a> | 
+				<a href="#">Products</a> | 
+				<a href="#">Contact us</a>
+			</div>
+			<div class="logo">
+				<img src="spa2.jpg" >
+			</div>
+			<div class="submenu">
+				<h2>Services</h2>
+				<div class="container">
+				<div class="cat">
+					<a href="#">more...</a><br>
+					<img src="beauty.jpeg"><br>
+					beauty services
+				</div>
+				<div class="cat">
+					<a href="#">more...</a><br>
+					<img src="s.png"><br>
+					spa services
+				</div>
+				<div class="cat">
+					<a href="#">more...</a><br>
+					<img src="massage.jpg"><br>
+					massage services
+				</div>
+			</div>
+			</div>
+			<div class="sd">
+				<div class="left">
+					<h2>News and Events</h2>
+					12.04.2000
+					<p>content content content</p>
+					<hr>
+					12.04.2000
+					<p>content content content</p>
+				</div>
+				<div class="right">
+					<h2>Welcome to beauty company!</h2>
+					<img src="tea.jpeg">
+					<p>
+						<a href="#">Acesta este un titlu</a>
+						content content content
+						<a href="#">more...</a>
+					</p>
+				 </div>
+				 <div style="clear: both"></div>
+			</div>
+			<div class="footer">
+				Copyright &copy; TzuLLy 2011
+			</div>
+		</div>
+		</div>
+	 </body>
+ </html>
