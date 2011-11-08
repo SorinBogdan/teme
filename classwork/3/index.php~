@@ -1,0 +1,12 @@
+#!/usr/bin/php
+<?php
+	$x=fgets(STDIN);
+	while($x !='0')
+	{
+		if($x % 2 ==0)
+			echo "par \n";
+		else 
+			echo "impar";
+		$x=fgets(STDIN);
+	}
+?>
