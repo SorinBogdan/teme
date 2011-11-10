@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Validare CNP - Request</title>
+	</head>
+	<body>
+		<div id="content">
+			<form action="script.php" method="POST">
+			<table border="0">
+				<tr>
+					<td>Sex:</td>
+					<td><input type="radio" name="sex" value="masc">Masculin
+							<input type="radio" name="sex" value="fem">Feminin</td>
+				<tr>					
+					<td>Ziua:</td>
+					<td><input type="text" maxlength="2" name="z"></td>
+				<tr>
+					<td>Luna:</td>
+					<td><input type="text" maxlength="2" name="l"></td>
+				<tr>
+					<td>Anul:</td>
+					<td><input type="text" maxlength="4" name="a"></td>
+				<tr>
+					<td>Judetul:</td>
+					<td><input type="text" name="j"></td>
+				<tr>
+					<td>Judetul:</td>
+					<td>
+						<select name="j">
+							<option value="C">Volvo</option>
+							<option value="saab">Saab</option>
+							<option value="fiat">Fiat</option>
+							<option value="audi">Audi</option>
+						</select>
+					</td>
+			</table>
+			<input type="submit" value="Submit">
+			</form>		
+		</div>	
+	</body>
+</html>

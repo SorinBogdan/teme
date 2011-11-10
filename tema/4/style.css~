@@ -1,0 +1,14 @@
+#content {
+	background-color: gray;
+	width: 400px;
+	height: 600px;
+	text-align: center;
+	margin: auto auto;
+}
+
+table {
+	width: 380px;
+	height: 500px;
+	margin: auto auto;
+	text-align: center;
+}
