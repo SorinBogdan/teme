@@ -13,8 +13,6 @@
 		echo "Cnp invalid \n";
 	elseif ($s<"1" || $s>"9")
 		echo "Cnp invalid \n";
-	elseif ($a>"99")
-		echo "Cnp invalid \n";
 	elseif ($l<"1" || $l>"12")
 		echo "Cnp invalid \n";
 	elseif (($l>"30" && $l!="02" && $l % 2 ==0 && $l>"06") || ($l>"30" && ($l % 2) == 1 && $l>="09"))
