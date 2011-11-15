@@ -11,7 +11,7 @@
 	$c1=$suma%11;
 	if (strlen($cnp)-1!="13")
 		echo "Cnp invalid \n";
-	elseif ($s<"1" || $s>"2")
+	elseif ($s<"1" || $s>"9")
 		echo "Cnp invalid \n";
 	elseif ($a>"99")
 		echo "Cnp invalid \n";
