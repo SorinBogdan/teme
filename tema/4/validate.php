@@ -17,11 +17,15 @@
 		echo "Cnp invalid \n";
 	elseif ($l<"1" || $l>"12")
 		echo "Cnp invalid \n";
+	elseif (($l>"30" && $l!="02" && $l % 2 ==0 && $l>"06") || ($l>"30" && ($l % 2) == 1 && $l>="09"))
+		echo "cnp invalid \n";
 	elseif ($z<"1" || $z>"31")
 		echo "Cnp invalid \n";
-	elseif ($j<"1" || $j>"52")
+	elseif (($l == "2" && $a % 4 == "0") && $z > "29" )
 		echo "Cnp invalid \n";
-	elseif ($n<"1" || $n>"999")
+	elseif (($l == "2" && $a % 4 != "0") && $z > "28" )
+		echo "Cnp invalid \n";
+	elseif ($j<"1" || $j>"52")
 		echo "Cnp invalid \n";
 	elseif ($c1=="10" && $c!="1" || $c1!="10" && $c!=$c1)
 		echo "Cnp invalid \n";
