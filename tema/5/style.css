@@ -1,0 +1,26 @@
+body p {
+	font-size: 24px;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.menu a:hover {
+	background-color: lightgrey;
+}
+
+.lform {
+	background-color: gray;
+	width: 350px;
+}
+
+#bg, #bg1 {
+	background-color: black;
+	color: white;
+}

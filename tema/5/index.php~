@@ -1,0 +1,53 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<?php
+	/*if(!isset($COOKIE['logat']))
+		setcookie ('logat', false);*/
+	if (!isset($_GET['page']))
+		$_GET['page']="";
+	switch ($_GET['page'])
+	{
+		case "":
+			include 'menu.php';
+			echo 'This is a welcome page :D <br> Everybody can see it';
+			break;
+		case "login":
+			include 'menu.php';
+			if(!$COOKIE['logat'])
+			{
+				$useri = array("amdin" => "ceapa", "vlad" => "vlad");
+				echo '
+					<form method="post" action="index.php?page=login&action=validate">
+						User: <input type="text" name="user"> <br>
+						Pass: <input type="password" name="pass">
+						<input type="submit" value="Submit">
+					</form>
+				';
+				switch($_GET['action']) {
+					case "validate":
+						if (isset($useri[$_POST['user']]) && $useri[$_POST['user']]==$_POST['pass']) //valid
+						{
+							setcookie ('logat', true);
+							echo 'Logat';
+						}
+						else
+							echo 'Wrong USER/PASS... Try again!';
+						break;
+				}
+			}
+			else 
+				echo 'Sunteti autentificat deja';
+			break;
+		case "logout":
+			include 'menu.php';
+			setcookie ('logat', false);
+			echo 'Succesfuly logged out';
+			break;
+		case "restricted":
+			include 'menu.php';
+			if ($COOKIE['logat']==true)
+				echo 'You have acces to the restricted page';
+			else
+				echo 'Sorry, you do not have acces to this page';
+			break;
+	}
+?>
